@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.social {
+  font: "";
+}
+
+.facebook {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>'),
+    auto;
+}
+
+.apple {
+  cursor: url('data:image/svg+xml;charset=utf-8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="256" height="315" viewBox="0 0 256 315"%3E%3Cpath d="M213.803 167.03c.442 47.58 41.74 63.413 42.197 63.615c-.35 1.116-6.599 22.563-21.757 44.716c-13.104 19.153-26.705 38.235-48.13 38.63c-21.05.388-27.82-12.483-51.888-12.483c-24.061 0-31.582 12.088-51.51 12.871c-20.68.783-36.428-20.71-49.64-39.793c-27-39.033-47.633-110.3-19.928-158.406c-13.763-23.89 38.36-39.017 65.056-39.405c-20.307-.387-39.475 13.662-51.889 13.662c-12.406 0-35.699-16.895-60.186-14.414c-10.25.427-39.026 4.14-57.503 31.186c-1.49.923-34.335 20.044-33.978 59.822M174.24 50.199c10.98-13.29 18.369-31.79 16.353-50.199c-15.826.636-34.962 10.546-46.314 23.828c-10.173 11.763-19.082 30.589-16.678 48.633c-17.64 1.365-35.66-8.964-46.64-22.262"%3E%3C/path%3E%3C/svg%3E'),
+    auto;
+}
+
+/* .chopper-hand {
+  position: absolute;
+  transform: translateY(135%);
+  transition: 0.7s;
+} */
+
+.your-container {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.your-container_div {
+  height: 100vh;
+  scroll-snap-align: start;
+}
