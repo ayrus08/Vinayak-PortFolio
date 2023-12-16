@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
-import { motion, useScroll, useTransform } from "framer-motion";
-import { useRef } from "react";
+import { motion, useTransform } from "framer-motion";
+
 const Parallax = ({ scrollYProgress }) => {
   const yText = useTransform(scrollYProgress, [0, 0.5], ["-200%", "400%"]);
   const yBg_planets = useTransform(scrollYProgress, [0, 0.5], ["-50%", "100%"]);
@@ -24,7 +24,7 @@ const Parallax = ({ scrollYProgress }) => {
   return (
     <div className="parallax bg-gradient-to-b from-[#111132] to-[#0c0c1d] w-full h-full relative flex items-center justify-center overflow-hidden">
       <motion.h1 style={{ y: yText }} className="ml-16 md:ml-0 text-[100px]">
-        What I Know
+        My TechStack?
       </motion.h1>
       <motion.div
         style={{ scale: scale_mountains }}

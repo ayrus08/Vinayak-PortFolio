@@ -66,7 +66,7 @@ const Hero = () => {
             Hello, I'm Vinayak
           </motion.h2>
           <motion.h1 variants={textvarients} className="text-2xl">
-            I am a front-end developer with a strong passion for software
+            I am a Full Stack developer with a strong passion for software
             development, seeking opportunities to leverage my skills as a
             Developer
           </motion.h1>
