@@ -5,6 +5,7 @@ import Parallax from "../Components/MyPortfolio/Parallax";
 import TechStack from "../Components/MyPortfolio/TechStack";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
+import Parallax2 from "../Components/MyPortfolio/Parallax2";
 
 const MyPortfolio_1 = () => {
   const ref = useRef(null);
@@ -30,7 +31,9 @@ const MyPortfolio_1 = () => {
       <section className="h-[100vh] snap-center" id="Services">
         <TechStack />
       </section>
-      <section className="h-[100vh] snap-center">Parallax</section>
+      <section className="h-[100vh] snap-center">
+        <Parallax2 scrollYProgress={scrollYProgress} />
+      </section>
       <section className="h-[100vh] snap-center" id="Portfolio">
         Portfolio 1
       </section>
