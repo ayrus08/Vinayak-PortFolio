@@ -22,7 +22,7 @@ const Parallax2 = ({ scrollYProgress }) => {
   return (
     <div className="parallax bg-gradient-to-b from-[#111132] to-[#0c0c1d] w-full h-full relative flex items-center justify-center overflow-hidden">
       <motion.h1 style={{ y: yText }} className="ml-16 md:ml-0 text-[100px]">
-        My TechStack?
+        My Projects?
       </motion.h1>
       <motion.div
         className="mountains bg-[url('./StockFootage/Socials/mountains.png')] w-full h-full bg-cover bg-bottom absolute z-10"
