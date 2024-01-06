@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../StockFootage/Socials/hero.png";
+import hero from "../../StockFootage/Socials/newing.png";
 import { animate, motion } from "framer-motion";
 
 const Hero = () => {
@@ -105,7 +105,7 @@ const Hero = () => {
       <img
         src={hero}
         alt=""
-        className="h-full hidden sm:block sm:opacity-30 lg:opacity-100 absolute top-0 right-0 z-0"
+        className="h-full hidden sm:block sm:opacity-30 lg:opacity-100 absolute bottom-0 mb-10 right-0 z-0"
       />
     </div>
   );
