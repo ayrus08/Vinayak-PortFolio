@@ -1182,13 +1182,14 @@ export const AppContext = (props) => {
       },
     },
   ]);
+  // const [Content, setContent] = useState([])
   const [selectedCategory, setSelectedCategory] = useState("New");
   const [mobileMenu, setMobileMenu] = useState(false);
   // useEffect(() => {
   //   fetchSelectedCategoryData(selectedCategory);
   // }, [selectedCategory]);
 
-  console.log(Content);
+ 
 
   const fetchSelectedCategoryData = (query) => {
     setLoading(true);
@@ -1198,7 +1199,7 @@ export const AppContext = (props) => {
       setLoading(false);
     });
   };
-
+  console.log(Content);
   return (
     <Context.Provider
       value={{
