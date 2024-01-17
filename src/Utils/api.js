@@ -18,12 +18,10 @@ export const fetchDataFromApi = async (url) => {
     const response = await axios.get(`${BASE_URL}/${url}`, options);
     return response.data;
   } catch (error) {
-    console.log(process.env.REACT_APP_YOUTUBE_API_KEY)
-    console.log("first")
     console.error(error);
     throw error;
   }
-  console.log(process.env.REACT_APP_YOUTUBE_API_KEY)
+
 };
 
 //   export const fetchDataFromApi = async (url) => {
