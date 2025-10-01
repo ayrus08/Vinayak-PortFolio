@@ -8,7 +8,11 @@ import { IoLogoJavascript } from "react-icons/io";
 import { SiMongodb } from "react-icons/si";
 import { FaNode } from "react-icons/fa";
 import { TbSql } from "react-icons/tb";
+import { SiSocketdotio } from "react-icons/si";
+import { DiRedis } from "react-icons/di";
+import { SiApachekafka } from "react-icons/si";
 import { motion, useInView } from "framer-motion";
+
 const TechStack = () => {
   const ref = useRef();
   const isInView = useInView(ref);
@@ -64,6 +68,18 @@ const TechStack = () => {
     {
       icon: <TbSql size={100} color="black" />,
       name: "SQL",
+    },
+    {
+      icon: <SiSocketdotio size={100} color="black" />,
+      name: "Socket.io",
+    },
+    {
+      icon: <DiRedis size={100} color="black" />,
+      name: "Redis",
+    },
+    {
+      icon: <SiApachekafka size={100} color="black" />,
+      name: "Kafka",
     },
   ];
   useEffect(() => {

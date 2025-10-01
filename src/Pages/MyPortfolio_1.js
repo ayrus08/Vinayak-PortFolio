@@ -3,7 +3,8 @@ import NavBar from "../Components/MyPortfolio/NavBar";
 import Hero from "../Components/MyPortfolio/Hero";
 import Parallax from "../Components/MyPortfolio/Parallax";
 import TechStack from "../Components/MyPortfolio/TechStack";
-import Project_1_Youtube from "../Components/MyPortfolio/Project_1_Youtube"
+import Project_1_Youtube from "../Components/MyPortfolio/Project_1_Youtube";
+import Project_2_ChatApp from "../Components/MyPortfolio/Project_2_Chat-App";
 import { useScroll } from "framer-motion";
 import { useRef } from "react";
 import Parallax2 from "../Components/MyPortfolio/Parallax2";
@@ -36,9 +37,11 @@ const MyPortfolio_1 = () => {
         <Parallax2 scrollYProgress={scrollYProgress} />
       </section>
       <section className="h-[100vh] snap-center" id="Portfolio">
-        <Project_1_Youtube/>
+        <Project_1_Youtube />
       </section>
-      <section className="h-[100vh] snap-center">Portfolio 2</section>
+      <section className="h-[100vh] snap-center">
+        <Project_2_ChatApp />
+      </section>
       <section className="h-[100vh] snap-center">Portfolio 3</section>
       <section className="h-[100vh] snap-center" id="Contact">
         Contact
