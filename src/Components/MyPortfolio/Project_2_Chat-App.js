@@ -114,6 +114,10 @@ const Project_2_ChatApp = () => {
               >
                 See Demo
               </button>
+              <p className="text-xs">
+                *Hosted on Render. Initial load may take 1 – 2 minutes while the
+                server spins up.
+              </p>
             </motion.div>
           </div>
         )}
